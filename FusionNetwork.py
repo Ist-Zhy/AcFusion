@@ -242,7 +242,7 @@ class RDAB(nn.Module):
 class FusionNet(nn.Module):
     def __init__(self, output):
         super(FusionNet, self).__init__()
-        vis_ch = [8, 16, 48]
+        vis_ch = [16, 32, 48]
         inf_ch = [16, 32, 48]
         output = 1
         self.vis_con = ACmix(1, 8)
