@@ -7,7 +7,9 @@ This is the official PyTorch implementation of AcFusion:Infrared and visible ima
   
 Links to the checkpoints can be found in the inference description below.
 
+## Architecture
 ![](https://github.com/Ist-Zhy/AcFusion/blob/main/docs/AcFusion.png)
+Our AcFusion is implemented in FusionNetwork.py.
 
 ## To Test
 
