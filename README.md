@@ -10,8 +10,12 @@ Links to the checkpoints can be found in the inference description below.
 ## Architecture
 ![](https://github.com/Ist-Zhy/AcFusion/blob/main/docs/AcFusion.png)
 Our AcFusion is implemented in FusionNetwork.py.
-## Recommended Environment
 
+## Recommended Environment
+'torch>=1.12.0'
+'scipy=1.7.3'
+'numpy=1.26.3'
+'opencv=4.5.5'
 ## To Test
 
 ## To Train
