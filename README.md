@@ -7,6 +7,10 @@ This is the official PyTorch implementation of AcFusion:Infrared and visible ima
   
 Links to the checkpoints can be found in the inference description below.
 
+## Abstract
+The purpose of fusing infrared and visible images is to create a single fused image that not only includes texture details and prominent objects but also being well-suited for further intelligent processing. Existing fusion methods often use local convolution, which fails to account for multi-scale and global feature dependencies, while Transformer-based approaches typically face constraints related to computational resources and input image size. To this end, we propose an innovative and streamlined fusion network, called AcFusion. Firstly, we introduce ACmix, which consists of a combination of convolution and multi-head self-attention, to enhance the global modeling capability while retaining as much meaningful information as possible from the source image for further processing. We design the Sobel operator-based attention gradient block (SWGD) to suppress loss of high-frequency information and enhance fine-grained information of the mode. Furthermore, we design a Residual-Dense Attention Block (RDAB) using SWGD as a component, which further improves the representation ability of features through residual connection. We conduct generalization experiments and ablation experiments to demonstrate the effectiveness of our fusion method in integrating information from different modalities. Moreover, we also verify the superiority of our method in the downstream task of object detection.
+
+
 ## Architecture
 ![](https://github.com/Ist-Zhy/AcFusion/blob/main/docs/AcFusion.png)
 Our AcFusion is implemented in `FusionNetwork.py`.
