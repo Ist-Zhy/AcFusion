@@ -25,5 +25,6 @@ Our AcFusion is implemented in `FusionNetwork.py`.
 python test.py
 ## To Train
 python train.py
-
+## Note this
+Our code is based on SeAFusion(https://github.com/Linfeng-Tang/SeAFusion).
 
