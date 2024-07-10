@@ -22,6 +22,8 @@ Our AcFusion is implemented in `FusionNetwork.py`.
   *   `opencv=4.5.5`
 
 ## To Test
-
+python test.py
 ## To Train
+python train.py
+
 
